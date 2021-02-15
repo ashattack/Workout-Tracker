@@ -8,10 +8,17 @@ const app = express();
 
 app.use(logger("dev"));
 
-app.use(express.urlencoded({extended: true }));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-app.use(require(("./routes/htmlRoutes")))
+mongoose.connect("mongodb://localhost/workout", {
+    useNewUrlParser: true,
+    useFindAndModify: false
+});
+
+app.use(require("./routes/htmlRoutes"))
+app.use(require("./routes/htmlRoutes"))
+
 
 app.listen(PORT, () => {
     console.log(`App is running on http://localhost:${PORT}`);
