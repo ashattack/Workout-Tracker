@@ -11,7 +11,7 @@ Allows user to create, view and track daily workouts by logging multiple exercis
   
   * [Deploy](#deploy)
   
-  * [Questions](#questions)
+  * [Screenshots](#screenshots)
   
   ## Installation
   
@@ -22,11 +22,16 @@ Allows user to create, view and track daily workouts by logging multiple exercis
   ```
   
   ## Deploy
-  ```
-  [WorkoutTracker](https://git.heroku.com/serene-spire-83164.git)
-  ```
+Deployed on Heroku
+[WorkoutTracker](https://git.heroku.com/serene-spire-83164.git)
   
-## Screenshot
+  
+## Screenshots
+
+![Dashboard](./public/Screenshots/dashboard.png)
+![HomePage](./public/Screenshots/lastworkout.png)
+
+
   
   
   
