@@ -23,7 +23,7 @@ Allows user to create, view and track daily workouts by logging multiple exercis
   
   ## Deploy
 Deployed on Heroku
-[WorkoutTracker](https://git.heroku.com/serene-spire-83164.git)
+[WorkoutTracker](https://serene-spire-83164.herokuapp.com/?id=602d768f3cdda100156412ec)
   
   
 ## Screenshots
